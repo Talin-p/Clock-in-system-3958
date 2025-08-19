@@ -11,7 +11,7 @@ This project is a **standalone HTML application** that displays a **live-updatin
 
 * **Dynamic Bar Graph**
 
-  * Bars grow in real-time to represent elapsed time.
+  * Bars grow in real-time to represent elapsed time
   * Rows reorder automatically so the highest time always appears at the top.
   * Each bar shows both a graphical bar and a formatted time label (h/m/s).
 
