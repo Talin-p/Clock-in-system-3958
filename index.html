@@ -290,12 +290,12 @@ It's simple, interactive, and designed to make tracking competitive, fun and eas
         controls.className = "controls";
 
         const pauseBtn = document.createElement("button");
-        pauseBtn.textContent = "Pause";
+        pauseBtn.textContent = "Clock Out";
         pauseBtn.onclick = () => pausedPeople.add(name);
         controls.appendChild(pauseBtn);
 
         const resumeBtn = document.createElement("button");
-        resumeBtn.textContent = "Resume";
+        resumeBtn.textContent = "Clock In";
         resumeBtn.onclick = () => pausedPeople.delete(name);
         controls.appendChild(resumeBtn);
 
@@ -536,5 +536,6 @@ It's simple, interactive, and designed to make tracking competitive, fun and eas
   </script>
 </body>
 </html>
+
 
 
